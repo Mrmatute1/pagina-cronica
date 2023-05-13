@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+h1{font-size: 4em;}
+h2{font-size: 2.7em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em}
+
+body{;
+margin:0%;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+    font-size: 1.75em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    border: 3px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: rgb(93, 30, 153);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+
+}
+header .logo{
+    margin: 0;
+    padding: 25px 25px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.45em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 200wh;
+    background-image:url(nashe.jpg);
+    color: rgb(255, 255, 255);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#introduccion{
+
+}
+#introduccion .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas{ background-color: blueviolet
+}
+#caracteristicas .container{
+    text-align: center;
+    padding: 170px 12px;
+}
+#caracteristicas li{
+    margin: 12px 0px;
+    font-weight: bold;
+}
+
+#cronica{
+    isplay: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90wh;
+    background-color: rgb(30,30,30);
+    height: 80wh;
+}
+
+footer p{margin: 0;
+color: rgb(100,100,100);
+padding: 12px;
+}
+
+footer .container{
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+#principio{
+    
+    font-size: 1.25em;
+    padding: 10px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+    
+#casona{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+#panchos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:row
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+#interludio{
+    font-size: 1.25em;
+    padding: 10px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#final{font-size: 1.25em;
+    padding: 10px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+@media (min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+    justify-content: space-between;}
+
+        header nav{
+            flex-direction: row;
+            padding-bottom: 0;
+            padding-right: 20px;
+        }
+
+        #caracteristicas .container{
+            text-align: initial;
+            }
+            #caracteristicas ul{
+                margin-left: 100px ;
+
+
+            }
+
+       
+    
+
+
+
+
+
+
+
+
+}
